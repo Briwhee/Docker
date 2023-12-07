@@ -1,0 +1,7 @@
+FROM jenkinsci/workflow-demo:2017-06-15
+
+USER root
+
+# Install Docker client
+ENV DOCKER_BUCKET get.docker.com
+ENV DOCKER_VERSION 1.12.6
